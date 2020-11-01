@@ -1,6 +1,5 @@
 # EEG-BCI
-Classification of EEG signals for brain-computer interface movements left/right or neither
-
+**Classification of EEG signals for brain-computer interface movements left/right or neither**
 
 In this work EEG signals, corresponding to the thought of the directions left, right and neither were analyzed and classified. Due to the small number of examples and the large number of attributes, special attention was given to the selection of important channels and attributes.
 
@@ -14,3 +13,9 @@ The processed signals were classified by different algorithms: classification tr
 Three different support vector classification strategies were applied. These are the strategies "one vs all", "one vs one" and classification "movement / word", followed by classification "left / right" for examples of class movement.
 
 The best accuracy was achieved by a system of two supporting vector machines with RBF kernel, where first the example is classified as "motion / word" and then as "left / right" if it belongs to the class "motion". The main advantage of this system is the smaller number of classifiers. Despite the small number of examples and the lack of ability for the user to adapt to the system, the achieved accuracy is much greater than a random forecast.
+
+**Data**
+
+row signals from:
+BCI Competition III
+Data set V ‹mental imagery, multi-class›

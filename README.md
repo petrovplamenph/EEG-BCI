@@ -1,6 +1,8 @@
 # EEG-BCI
 **Classification of EEG signals for brain-computer interface movements left/right or neither**
 
+If you don't want to read a lot check '2stage_algoritham.ipynb' for the best classifier.
+
 In this work EEG signals, corresponding to the thought of the directions left, right and neither were analyzed and classified. Due to the small number of examples and the large number of attributes, special attention was given to the selection of important channels and attributes.
 
 Spectral characteristics of the signals were derived via the Welch method. The channels that record important information about the tasks were selected by ranking, followed by step-by-step selection. The k nearest neighbor algorithm was used to estimate the subsets of channels.
